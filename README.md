@@ -63,6 +63,8 @@ Outline area. Select it, show the Identity Inspector (ALT+CMD+3) and set
 its class to GSRadioButtonSetController. The name displayed in the Objects 
 section should change to Radio Button Set Controller.
 
+![Xcode screenshot](http://goosoftware.github.com/GSRadioButtonViewController/images/add-controller-object.png)
+
 3. Control-drag from File's Owner to Radio Button Set Controller and select
 the property name you defined in your header earlier (radioButtonSetController
 in the example above)
