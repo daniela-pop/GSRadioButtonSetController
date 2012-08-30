@@ -10,6 +10,7 @@
 
 @implementation GSViewController
 
+#pragma mark - GSRadioButtonSetController delegate methods
 - (void)radioButtonSetController:(GSRadioButtonSetController *)controller didSelectButtonAtIndex:(NSUInteger)selectedIndex
 {
     self.selectedIndexLabel.text = [NSString stringWithFormat:@"%d", selectedIndex];
