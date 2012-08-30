@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F443925115EFE0A6005F152F /* GSRadioButtonSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = F443925015EFE0A6005F152F /* GSRadioButtonSetController.m */; };
+		F445E27E15B719E300D526BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445E27D15B719E300D526BE /* UIKit.framework */; };
+		F445E28015B719E300D526BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445E27F15B719E300D526BE /* Foundation.framework */; };
+		F445E28215B719E300D526BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F445E28115B719E300D526BE /* CoreGraphics.framework */; };
+		F445E28815B719E300D526BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F445E28615B719E300D526BE /* InfoPlist.strings */; };
+		F445E28A15B719E300D526BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F445E28915B719E300D526BE /* main.m */; };
+		F445E28E15B719E300D526BE /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F445E28D15B719E300D526BE /* GSAppDelegate.m */; };
+		F445E29115B719E300D526BE /* GSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F445E29015B719E300D526BE /* GSViewController.m */; };
+		F445E29415B719E300D526BE /* GSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F445E29215B719E300D526BE /* GSViewController.xib */; };
+		F445E2A215B71C4F00D526BE /* button-off.png in Resources */ = {isa = PBXBuildFile; fileRef = F445E29E15B71C4F00D526BE /* button-off.png */; };
+		F445E2A315B71C4F00D526BE /* button-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F445E29F15B71C4F00D526BE /* button-off@2x.png */; };
+		F445E2A415B71C4F00D526BE /* button-on.png in Resources */ = {isa = PBXBuildFile; fileRef = F445E2A015B71C4F00D526BE /* button-on.png */; };
+		F445E2A515B71C4F00D526BE /* button-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F445E2A115B71C4F00D526BE /* button-on@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F443924F15EFE0A6005F152F /* GSRadioButtonSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSRadioButtonSetController.h; path = ../../GSRadioButtonSetController.h; sourceTree = "<group>"; };
+		F443925015EFE0A6005F152F /* GSRadioButtonSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSRadioButtonSetController.m; path = ../../GSRadioButtonSetController.m; sourceTree = "<group>"; };
+		F445E27915B719E300D526BE /* RadioButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F445E27D15B719E300D526BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F445E27F15B719E300D526BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F445E28115B719E300D526BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F445E28515B719E300D526BE /* RadioButtonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadioButtonTest-Info.plist"; sourceTree = "<group>"; };
+		F445E28715B719E300D526BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F445E28915B719E300D526BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F445E28B15B719E300D526BE /* RadioButtonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadioButtonTest-Prefix.pch"; sourceTree = "<group>"; };
+		F445E28C15B719E300D526BE /* GSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSAppDelegate.h; sourceTree = "<group>"; };
+		F445E28D15B719E300D526BE /* GSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSAppDelegate.m; sourceTree = "<group>"; };
+		F445E28F15B719E300D526BE /* GSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSViewController.h; sourceTree = "<group>"; };
+		F445E29015B719E300D526BE /* GSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSViewController.m; sourceTree = "<group>"; };
+		F445E29315B719E300D526BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GSViewController.xib; sourceTree = "<group>"; };
+		F445E29E15B71C4F00D526BE /* button-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off.png"; sourceTree = "<group>"; };
+		F445E29F15B71C4F00D526BE /* button-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-off@2x.png"; sourceTree = "<group>"; };
+		F445E2A015B71C4F00D526BE /* button-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on.png"; sourceTree = "<group>"; };
+		F445E2A115B71C4F00D526BE /* button-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-on@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F445E27615B719E300D526BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F445E27E15B719E300D526BE /* UIKit.framework in Frameworks */,
+				F445E28015B719E300D526BE /* Foundation.framework in Frameworks */,
+				F445E28215B719E300D526BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F445E26E15B719E300D526BE = {
+			isa = PBXGroup;
+			children = (
+				F445E28315B719E300D526BE /* RadioButtonTest */,
+				F445E27C15B719E300D526BE /* Frameworks */,
+				F445E27A15B719E300D526BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F445E27A15B719E300D526BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F445E27915B719E300D526BE /* RadioButtonTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F445E27C15B719E300D526BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F445E27D15B719E300D526BE /* UIKit.framework */,
+				F445E27F15B719E300D526BE /* Foundation.framework */,
+				F445E28115B719E300D526BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F445E28315B719E300D526BE /* RadioButtonTest */ = {
+			isa = PBXGroup;
+			children = (
+				F443924F15EFE0A6005F152F /* GSRadioButtonSetController.h */,
+				F443925015EFE0A6005F152F /* GSRadioButtonSetController.m */,
+				F445E28C15B719E300D526BE /* GSAppDelegate.h */,
+				F445E28D15B719E300D526BE /* GSAppDelegate.m */,
+				F445E28F15B719E300D526BE /* GSViewController.h */,
+				F445E29015B719E300D526BE /* GSViewController.m */,
+				F445E29215B719E300D526BE /* GSViewController.xib */,
+				F445E28415B719E300D526BE /* Supporting Files */,
+			);
+			path = RadioButtonTest;
+			sourceTree = "<group>";
+		};
+		F445E28415B719E300D526BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F445E29E15B71C4F00D526BE /* button-off.png */,
+				F445E29F15B71C4F00D526BE /* button-off@2x.png */,
+				F445E2A015B71C4F00D526BE /* button-on.png */,
+				F445E2A115B71C4F00D526BE /* button-on@2x.png */,
+				F445E28515B719E300D526BE /* RadioButtonTest-Info.plist */,
+				F445E28615B719E300D526BE /* InfoPlist.strings */,
+				F445E28915B719E300D526BE /* main.m */,
+				F445E28B15B719E300D526BE /* RadioButtonTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F445E27815B719E300D526BE /* RadioButtonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F445E29715B719E300D526BE /* Build configuration list for PBXNativeTarget "RadioButtonTest" */;
+			buildPhases = (
+				F445E27515B719E300D526BE /* Sources */,
+				F445E27615B719E300D526BE /* Frameworks */,
+				F445E27715B719E300D526BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioButtonTest;
+			productName = RadioButtonTest;
+			productReference = F445E27915B719E300D526BE /* RadioButtonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F445E27015B719E300D526BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Goo Software Ltd";
+			};
+			buildConfigurationList = F445E27315B719E300D526BE /* Build configuration list for PBXProject "RadioButtonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F445E26E15B719E300D526BE;
+			productRefGroup = F445E27A15B719E300D526BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F445E27815B719E300D526BE /* RadioButtonTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F445E27715B719E300D526BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F445E28815B719E300D526BE /* InfoPlist.strings in Resources */,
+				F445E29415B719E300D526BE /* GSViewController.xib in Resources */,
+				F445E2A215B71C4F00D526BE /* button-off.png in Resources */,
+				F445E2A315B71C4F00D526BE /* button-off@2x.png in Resources */,
+				F445E2A415B71C4F00D526BE /* button-on.png in Resources */,
+				F445E2A515B71C4F00D526BE /* button-on@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F445E27515B719E300D526BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F445E28A15B719E300D526BE /* main.m in Sources */,
+				F445E28E15B719E300D526BE /* GSAppDelegate.m in Sources */,
+				F445E29115B719E300D526BE /* GSViewController.m in Sources */,
+				F443925115EFE0A6005F152F /* GSRadioButtonSetController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F445E28615B719E300D526BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F445E28715B719E300D526BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F445E29215B719E300D526BE /* GSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F445E29315B719E300D526BE /* en */,
+			);
+			name = GSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F445E29515B719E300D526BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F445E29615B719E300D526BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F445E29815B719E300D526BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadioButtonTest/RadioButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "RadioButtonTest/RadioButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F445E29915B719E300D526BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RadioButtonTest/RadioButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "RadioButtonTest/RadioButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F445E27315B719E300D526BE /* Build configuration list for PBXProject "RadioButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F445E29515B719E300D526BE /* Debug */,
+				F445E29615B719E300D526BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F445E29715B719E300D526BE /* Build configuration list for PBXNativeTarget "RadioButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F445E29815B719E300D526BE /* Debug */,
+				F445E29915B719E300D526BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F445E27015B719E300D526BE /* Project object */;
+}
