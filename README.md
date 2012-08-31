@@ -8,6 +8,11 @@ a second button in the set automatically deselects the first.
 (If you're familiar with `<input type='radio'>` in HTML, it's like that
 but for Cocoa.)
 
+# Usage
+
+First, copy GSRadioButtonSetController.h and GSRadioButtonSetController.m
+into your project, then follow the instructions below.
+
 ## Usage: in a Xib
 
 Let's assume you've got a Xib called `MyView.xib` and a corresponding view 
@@ -83,3 +88,12 @@ That's it. Run your code and marvel at the sheer radioness of the buttons.
 
 Coming soon...
 
+# License
+
+[![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/)
+
+This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
+
+You're free to use this code in any project, including commercial. Please include the following text somewhere suitable, e.g. your app's About screen:
+
+**Uses GSRadioButtonSetController by Simon Whitaker**
