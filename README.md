@@ -1,4 +1,4 @@
-# GSRadioButtonViewController – radio button functionality for your Cocoa
+# GSRadioButtonViewController – radio button functionality for Cocoa
 
 `GSRadioButtonViewController` implements the logic behind an array of
 radio buttons. In other words, give it a set of buttons to look after
