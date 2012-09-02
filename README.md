@@ -97,8 +97,10 @@ radio button set controller and set its buttons and delegate. For example:
 {
     [super viewDidLoad];
     
-    // Add 
+    // Instantiate your GSRadioButtonSetController object
     self.radioButtonSetController = [[GSRadioButtonSetController alloc] init];
+
+    // Set its delegate to your view controller
     self.radioButtonSetController.delegate = self;
     
     // Get an array of the buttons you want to add to the
@@ -110,7 +112,6 @@ radio button set controller and set its buttons and delegate. For example:
             [buttons addObject:v];
         }
     }
-    
     self.radioButtonSetController.buttons = [NSArray arrayWithArray:buttons];
 }
 ```
