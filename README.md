@@ -1,8 +1,8 @@
-# GSRadioButtonViewController – radio button functionality for Cocoa
+# GSRadioButtonSetController – radio button functionality for Cocoa
 
 ![Demo app screenshot][demo-screenshot]
 
-`GSRadioButtonViewController` implements the logic behind an array of
+`GSRadioButtonSetController` implements the logic behind an array of
 radio buttons. In other words, give it a set of buttons to look after
 and it will ensure that only one can be selected at a time. Selecting
 a second button in the set automatically deselects the first.
@@ -61,7 +61,7 @@ and here's `MyViewController.m`:
 ### Add some buttons
 
 1. Open MyView.xib and add some UIButton instances. Style them however you
-see fit. GSRadioButtonViewController sets the `selected` property to `YES` 
+see fit. GSRadioButtonSetController sets the `selected` property to `YES` 
 on the selected button, so be sure to add distinguishing styling for
 selected mode.
 
@@ -127,5 +127,5 @@ You're free to use this code in any project, including commercial. Please includ
 
 [cc-by-30-icon]: http://i.creativecommons.org/l/by/3.0/88x31.png
 [cc-by-30]: http://creativecommons.org/licenses/by/3.0/
-[xcode-screenshot]: http://goosoftware.github.com/GSRadioButtonViewController/images/add-controller-object.png
-[demo-screenshot]: http://goosoftware.github.com/GSRadioButtonViewController/images/demo-screenshot.png
+[xcode-screenshot]: http://goosoftware.github.com/GSRadioButtonSetController/images/add-controller-object.png
+[demo-screenshot]: http://goosoftware.github.com/GSRadioButtonSetController/images/demo-screenshot.png
