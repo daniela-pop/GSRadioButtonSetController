@@ -1,5 +1,7 @@
 # GSRadioButtonViewController – radio button functionality for Cocoa
 
+![Demo app screenshot][demo-screenshot]
+
 `GSRadioButtonViewController` implements the logic behind an array of
 radio buttons. In other words, give it a set of buttons to look after
 and it will ensure that only one can be selected at a time. Selecting
@@ -86,7 +88,32 @@ That's it. Run your code and marvel at the sheer radioness of the buttons.
 
 ## Usage: in code
 
-Coming soon...
+Use the same .h and .m stubs as in the "Usage: in a Xib" section. Add code
+when your view loads, e.g. in `-viewDidLoad`, to instantiate your
+radio button set controller and set its buttons and delegate. For example:
+
+```objective-c
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    // Add 
+    self.radioButtonSetController = [[GSRadioButtonSetController alloc] init];
+    self.radioButtonSetController.delegate = self;
+    
+    // Get an array of the buttons you want to add to the
+    // radio button set. I'm just going to step through the
+    // the top-level subviews of this view.
+    NSMutableArray *buttons = [NSMutableArray array];
+    for (UIView *v in [self.view subviews]) {
+        if ([v isKindOfClass:[UIButton class]]) {
+            [buttons addObject:v];
+        }
+    }
+    
+    self.radioButtonSetController.buttons = [NSArray arrayWithArray:buttons];
+}
+```
 
 # License
 
@@ -101,3 +128,4 @@ You're free to use this code in any project, including commercial. Please includ
 [cc-by-30-icon]: http://i.creativecommons.org/l/by/3.0/88x31.png
 [cc-by-30]: http://creativecommons.org/licenses/by/3.0/
 [xcode-screenshot]: http://goosoftware.github.com/GSRadioButtonViewController/images/add-controller-object.png
+[demo-screenshot]: http://goosoftware.github.com/GSRadioButtonViewController/images/demo-screenshot.png
