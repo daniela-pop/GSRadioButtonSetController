@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43A5BE515FD052400600F73 /* GSRadioButtonSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A5BE415FD052400600F73 /* GSRadioButtonSetController.m */; };
+		F49D7A2B15F9FCD700D1FEBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F49D7A2915F9FCD700D1FEBF /* InfoPlist.strings */; };
+		F49D7A2E15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F49D7A2D15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests.m */; };
+		F49D7A3B15F9FEB900D1FEBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49D7A3A15F9FEB900D1FEBF /* CoreGraphics.framework */; };
+		F49D7A3D15F9FEC000D1FEBF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49D7A3C15F9FEC000D1FEBF /* SenTestingKit.framework */; };
+		F49D7A3F15F9FECC00D1FEBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49D7A3E15F9FECC00D1FEBF /* UIKit.framework */; };
+		F49D7A4115F9FEDE00D1FEBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49D7A4015F9FEDE00D1FEBF /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F43A5BE315FD052400600F73 /* GSRadioButtonSetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSRadioButtonSetController.h; path = ../../GSRadioButtonSetController.h; sourceTree = "<group>"; };
+		F43A5BE415FD052400600F73 /* GSRadioButtonSetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSRadioButtonSetController.m; path = ../../GSRadioButtonSetController.m; sourceTree = "<group>"; };
+		F49D7A1D15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSRadioButtonSetControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49D7A2815F9FCD700D1FEBF /* GSRadioButtonSetControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSRadioButtonSetControllerTests-Info.plist"; sourceTree = "<group>"; };
+		F49D7A2A15F9FCD700D1FEBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F49D7A2D15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSRadioButtonSetControllerTests.m; sourceTree = "<group>"; };
+		F49D7A2F15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSRadioButtonSetControllerTests-Prefix.pch"; sourceTree = "<group>"; };
+		F49D7A3A15F9FEB900D1FEBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F49D7A3C15F9FEC000D1FEBF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F49D7A3E15F9FECC00D1FEBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F49D7A4015F9FEDE00D1FEBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49D7A1915F9FCD700D1FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D7A4115F9FEDE00D1FEBF /* Foundation.framework in Frameworks */,
+				F49D7A3F15F9FECC00D1FEBF /* UIKit.framework in Frameworks */,
+				F49D7A3D15F9FEC000D1FEBF /* SenTestingKit.framework in Frameworks */,
+				F49D7A3B15F9FEB900D1FEBF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F49D7A0F15F9FCBC00D1FEBF = {
+			isa = PBXGroup;
+			children = (
+				F49D7A2615F9FCD700D1FEBF /* GSRadioButtonSetControllerTests */,
+				F49D7A1F15F9FCD700D1FEBF /* Frameworks */,
+				F49D7A1E15F9FCD700D1FEBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F49D7A1E15F9FCD700D1FEBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49D7A1D15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49D7A1F15F9FCD700D1FEBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49D7A4015F9FEDE00D1FEBF /* Foundation.framework */,
+				F49D7A3E15F9FECC00D1FEBF /* UIKit.framework */,
+				F49D7A3C15F9FEC000D1FEBF /* SenTestingKit.framework */,
+				F49D7A3A15F9FEB900D1FEBF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F49D7A2615F9FCD700D1FEBF /* GSRadioButtonSetControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F43A5BE315FD052400600F73 /* GSRadioButtonSetController.h */,
+				F43A5BE415FD052400600F73 /* GSRadioButtonSetController.m */,
+				F49D7A2D15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests.m */,
+				F49D7A2715F9FCD700D1FEBF /* Supporting Files */,
+			);
+			path = GSRadioButtonSetControllerTests;
+			sourceTree = "<group>";
+		};
+		F49D7A2715F9FCD700D1FEBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49D7A2815F9FCD700D1FEBF /* GSRadioButtonSetControllerTests-Info.plist */,
+				F49D7A2915F9FCD700D1FEBF /* InfoPlist.strings */,
+				F49D7A2F15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49D7A1C15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49D7A3015F9FCD700D1FEBF /* Build configuration list for PBXNativeTarget "GSRadioButtonSetControllerTests" */;
+			buildPhases = (
+				F49D7A1815F9FCD700D1FEBF /* Sources */,
+				F49D7A1915F9FCD700D1FEBF /* Frameworks */,
+				F49D7A1A15F9FCD700D1FEBF /* Resources */,
+				F49D7A1B15F9FCD700D1FEBF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSRadioButtonSetControllerTests;
+			productName = GSRadioButtonSetControllerTests;
+			productReference = F49D7A1D15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49D7A1115F9FCBC00D1FEBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = F49D7A1415F9FCBC00D1FEBF /* Build configuration list for PBXProject "GSRadioButtonSetController Tests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F49D7A0F15F9FCBC00D1FEBF;
+			productRefGroup = F49D7A1E15F9FCD700D1FEBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49D7A1C15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49D7A1A15F9FCD700D1FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D7A2B15F9FCD700D1FEBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F49D7A1B15F9FCD700D1FEBF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49D7A1815F9FCD700D1FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D7A2E15F9FCD700D1FEBF /* GSRadioButtonSetControllerTests.m in Sources */,
+				F43A5BE515FD052400600F73 /* GSRadioButtonSetController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F49D7A2915F9FCD700D1FEBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49D7A2A15F9FCD700D1FEBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49D7A1615F9FCBC00D1FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F49D7A1715F9FCBC00D1FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		F49D7A3115F9FCD700D1FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSRadioButtonSetControllerTests/GSRadioButtonSetControllerTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GSRadioButtonSetControllerTests/GSRadioButtonSetControllerTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F49D7A3215F9FCD700D1FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSRadioButtonSetControllerTests/GSRadioButtonSetControllerTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GSRadioButtonSetControllerTests/GSRadioButtonSetControllerTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49D7A1415F9FCBC00D1FEBF /* Build configuration list for PBXProject "GSRadioButtonSetController Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D7A1615F9FCBC00D1FEBF /* Debug */,
+				F49D7A1715F9FCBC00D1FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49D7A3015F9FCD700D1FEBF /* Build configuration list for PBXNativeTarget "GSRadioButtonSetControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49D7A3115F9FCD700D1FEBF /* Debug */,
+				F49D7A3215F9FCD700D1FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49D7A1115F9FCBC00D1FEBF /* Project object */;
+}
