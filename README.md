@@ -12,29 +12,27 @@ but for Cocoa.)
 
 # Usage
 
-First, copy GSRadioButtonSetController.h and GSRadioButtonSetController.m
-into your project, then follow the instructions below.
+## 1. Add GSRadioButtonSetController
 
-## Usage: in a Xib
+Just copy GSRadioButtonSetController.h and GSRadioButtonSetController.m
+into your project.
 
-Let's assume you've got a Xib called `MyView.xib` and a corresponding view 
-controller, `MyViewController`.
+## 2. Prepare your view controller class
 
-### Prepare your view controller class
-
+Let's assume you've got a view controller called `MyViewController`. 
 Here's `MyViewController.h`:
 
 ```objective-c
 #import <UIKit/UIKit.h>
-
-// Import the GSRadioButtonSetController header
 #import "GSRadioButtonSetController.h"
 
-// Declare that your controller class implements the GSRadioButtonSetControllerDelegate protocol
+// Declare that your controller class implements the 
+// GSRadioButtonSetControllerDelegate protocol
 @interface MyViewController : UIViewController <GSRadioButtonSetControllerDelegate>
 
-// Declare a property to represent your GSRadioButtonSetController instance
-@property (nonatomic, strong) IBOutlet GSRadioButtonSetController * radioButtonSetController;
+// Declare a property to represent your 
+// GSRadioButtonSetController instance
+@property (nonatomic, strong) GSRadioButtonSetController * radioButtonSetController;
 
 @end
 ```
@@ -58,62 +56,27 @@ and here's `MyViewController.m`:
 @end
 ```
 
-### Add some buttons
+## 3. Add some buttons
 
-1. Open MyView.xib and add some UIButton instances. Style them however you
+You can do this in code or in your Xib. Style the buttons however you
 see fit. GSRadioButtonSetController sets the `selected` property to `YES` 
 on the selected button, so be sure to add distinguishing styling for
 selected mode.
 
-2. Add an instance of `NSObject` to the Objects section in the Document
-Outline area. Select it, show the Identity Inspector (ALT+CMD+3) and set 
-its class to GSRadioButtonSetController. The name displayed in the Objects 
-section should change to Radio Button Set Controller.
+## 4. Set up the radio button set controller
 
-![Xcode screenshot][xcode-screenshot]
-
-3. Control-drag from File's Owner to Radio Button Set Controller and select
-the property name you defined in your header earlier (radioButtonSetController
-in the example above)
-
-4. Control-drag from Radio Button Set Controller to the first of your buttons,
-and choose Outlet Collections > Buttons from the menu. Repeat this with the
-rest of the buttons, assigning them all to the same Outlet Collection. 
-**Important: the order you add the buttons defines their index numbers in
-the radio button set, so be sure to add them in order.**
-
-### Run your code!
-
-That's it. Run your code and marvel at the sheer radioness of the buttons.
-
-## Usage: in code
-
-Use the same .h and .m stubs as in the "Usage: in a Xib" section. Add code
-when your view loads, e.g. in `-viewDidLoad`, to instantiate your
-radio button set controller and set its buttons and delegate. For example:
+Add the following to your view controller's `viewDidLoad` method.
 
 ```objective-c
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    // Instantiate your GSRadioButtonSetController object
-    self.radioButtonSetController = [[GSRadioButtonSetController alloc] init];
+// Instantiate your GSRadioButtonSetController object
+self.radioButtonSetController = [[GSRadioButtonSetController alloc] init];
 
-    // Set its delegate to your view controller
-    self.radioButtonSetController.delegate = self;
-    
-    // Get an array of the buttons you want to add to the
-    // radio button set. I'm just going to step through the
-    // the top-level subviews of this view.
-    NSMutableArray *buttons = [NSMutableArray array];
-    for (UIView *v in [self.view subviews]) {
-        if ([v isKindOfClass:[UIButton class]]) {
-            [buttons addObject:v];
-        }
-    }
-    self.radioButtonSetController.buttons = [NSArray arrayWithArray:buttons];
-}
+// Set its delegate to your view controller
+self.radioButtonSetController.delegate = self;
+
+// Set its buttons property to an array of buttons that you've
+// created previously.
+self.radioButtonSetController.buttons = myButtons;
 ```
 
 # License
