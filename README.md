@@ -40,9 +40,9 @@ Here's `MyViewController.h`:
 and here's `MyViewController.m`:
 
 ```objective-c
-#import "GSViewController.h"
+#import "MyViewController.h"
 
-@implementation GSViewController
+@implementation MyViewController
 
 #pragma mark - GSRadioButtonSetController delegate methods
 
